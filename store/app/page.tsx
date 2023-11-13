@@ -1,8 +1,5 @@
 "use client";
-import Blank from "@/components/Blank";
-import Cart from "@/components/Cart";
-import Items from "@/components/Items";
-import Image from "next/image";
+import { Blank } from "@/components/Blank";
 
 export default function Home() {
   return (

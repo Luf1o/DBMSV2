@@ -11,4 +11,21 @@ const Blank = () => {
   );
 };
 
-export default Blank;
+import { useRouter } from "next/router";
+
+const MyComponent = () => {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/other-page");
+  };
+
+  return (
+    <div>
+      <h1>My Component</h1>
+      <button onClick={handleClick}>Go to Other Page</button>
+    </div>
+  );
+};
+
+export { Blank, MyComponent };

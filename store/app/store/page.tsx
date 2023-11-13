@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { DemoData } from "@/constants/demoData";
-import Link from "next/link";
+import { DemoData } from "@/constants/demoData.js";
 
 const Items = () => {
   return (

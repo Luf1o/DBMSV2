@@ -1,8 +1,6 @@
-"use client";
 import { NavLinks, NavSecondLinks } from "@/constants/Navlinks";
 import Link from "next/link";
 import React from "react";
-import { useRouter } from "next/router";
 
 /*
 function pageDirect() {
@@ -47,16 +45,6 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
-        <Link
-          href={{
-            pathname: "/",
-            query: { page: "Stock.ts" },
-          }}
-          key="testModule"
-          className="w-[150px] h-[50px] bg-white text-red-400 rounded-full items-center flex justify-center"
-        >
-          TestModule
-        </Link>
         <ul className="flex hustify-between gap-2 ">
           {NavSecondLinks.map((filterCt) => (
             <Link

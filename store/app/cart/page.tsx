@@ -1,5 +1,5 @@
 "use client";
-import { CartData } from "@/constants/demoData";
+import { CartData } from "@/constants/demoData.js";
 import Link from "next/link";
 
 type objProp = {
