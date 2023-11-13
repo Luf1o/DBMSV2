@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: white;
+}
+.cart-screen-fit{
+  min-height: calc(100%-80px);
+  max-height: fit-content;
+}
