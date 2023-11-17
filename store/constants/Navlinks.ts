@@ -2,8 +2,8 @@ export const NavLinks = [
     { key: 'homeMain', href: '/' ,text:'Home' },
     { key: 'storeFront', href: '/store/' ,text:'Store' },
     { key: 'cart', href: '/cart/' ,text:'Cart' },
-    { key: 'stock', href: '/', text: 'Stock'},
-    { key: 'checkout', href: '/', text: 'Check Out'},
+    { key: 'stock', href: '/stock/', text: 'Stock'},
+    { key: 'checkout', href: '/checkout/', text: 'Check Out'},
     { key: 'filter', href: '/filter/' , text: 'Filter'}
 ];
 export const FooterLinks = [

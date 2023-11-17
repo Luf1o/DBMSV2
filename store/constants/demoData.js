@@ -44,3 +44,10 @@ export const CartData = [
     {        id:'c4',name: 'Cart Product 4', price: '50' ,  amt: '4'  },
 
 ]
+export const Checkout = [
+    {        id:'c1',name: 'Cart Product 1', price: '560',   amt:'1'   },
+    {        id:'c2',name: 'Cart Product 2', price: '600' , amt: '2'   },
+    {        id:'c3',name: 'Cart Product 3', price: '250' , amt: '3'   },
+    {        id:'c4',name: 'Cart Product 4', price: '50' ,  amt: '4'  },
+    {        id:'c4',name: 'Cart Product 4', price: '50' ,  amt: '4'  },
+]
