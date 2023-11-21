@@ -2,15 +2,16 @@
 
 import { DemoData } from "@/constants/demoData";
 import Link from "next/link";
+import React, { useState } from "react";
 
 const page = () => {
   return (
     <div className="flex flex-auto w-screen min-h-[80vh]">
       <div className="bg-green-300 w-[18vw] h-auto overflow-hidden">
         <div className="flex flex-col">
-          <button type="button" className=" py-5 hover:bg-green-400 primary ">
-            Show All
-          </button>
+          <div>Show All</div>
+          <div>Show All</div>
+          <div>Show All</div>
         </div>
       </div>
       <div className="flex p-2 w-[90] flex-row">
