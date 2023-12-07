@@ -34,22 +34,24 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex justify-between flex-wrap p-4 ">
-        <ul>
+        <ul id="nav-2">
           {NavLinks.map((links) => (
             <Link
               href={links.href}
               key={links.key}
+              id={links.key}
               className=" p-3 rounded-lg hover:bg-red-400 "
             >
               {links.text}
             </Link>
           ))}
         </ul>
-        <ul className="flex hustify-between gap-2 ">
+        <ul className="flex hustify-between gap-2 " id="nav-3">
           {NavSecondLinks.map((filterCt) => (
             <Link
               href={filterCt.href}
               key={filterCt.id}
+              id={filterCt.id}
               className=" p-3 rounded-lg hover:bg-red-300 hover:text-black "
             >
               {filterCt.text}

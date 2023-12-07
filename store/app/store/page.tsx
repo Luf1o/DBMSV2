@@ -12,7 +12,7 @@ const Items = () => {
             className="w-[30vw] p-2 h-[80px] rounded-lg flex justify-between  items-center bg-neutral-700 text-neutral-200 font-semibold"
           >
             <div>{props.name}</div>
-            <div>{props.price}</div>
+            <div>Rs {props.val2}</div>
             <div className="flex flex-row justify-between items-center w-[auto] gap-4 h-auto">
               <input
                 type="number"

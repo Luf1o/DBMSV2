@@ -1,6 +1,7 @@
 "use client";
 
 import Check from "@/components/Check";
+import { Checkout } from "@/constants/demoData";
 
 const page = () => {
   return (
@@ -9,7 +10,7 @@ const page = () => {
         <div className="flex flex-row  bg-red-300 py-4 items-center justify-between">
           <div className="pl-2 flex gap-2 items-center justify-center">
             <p className="text-xl">TotalPrice</p>
-            <p>15264</p>
+            <p>Rs/-46,959</p>
           </div>
           <button
             type="button"
@@ -21,11 +22,7 @@ const page = () => {
         <div className="flex justify-between items-center mx-2">
           <h4 className="pr-32">Item Name</h4>
           <h4>Item Price</h4>
-          <div className="flex">
-            <h4>Brand Name</h4>
-            <div>|</div>
-            <p>I</p>
-          </div>
+
           <div>Amount</div>
         </div>
         <div className="min-w-screen h-auto">
