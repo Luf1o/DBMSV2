@@ -18,9 +18,7 @@ export const DemoData = [
     { id: '407',name: 'Induction Cooker',val1: '13',val2: '2500'},
     { id: 'p8',name: 'Drumsticks',val1: '15',val2: '15'},
     { id: 'i6',name: 'Papergrid Notebook',val1: '40',val2: '45'},
-    { id: 'p10',name: 'Apple',val1: '30',val2: '50'},
-  
-    
+    { id: 'p10',name: 'Apple',val1: '30',val2: '50'} 
 ]
 export const CartData = [
     {        id:'kart1',name: 'Ruler', price: '50',   amt:'2'   },
@@ -52,7 +50,7 @@ export const Stationary = [
     { id: 'i9',name: 'Marker',val1: '20',val2: '15'},
     { id: 'i10',name: 'File',val1: '15',val2: '15'},
 ]
-export const Non_Perishable = [
+export const Appliances = [
     { id: '401',name: 'Pressure Cooker',val1: '25',val2: '7500'},
     { id: '402',name: 'Microwave Owen',val1: '15',val2: '15000'},
     { id: '403',name: 'Bioler',val1: '10',val2: '1400'},
@@ -77,4 +75,26 @@ export const Perishable = [
     { id: 'p11',name: 'Banana',val1: '48',val2: '60'},
     { id: 'p12',name: 'Watermelon',val1: '86',val2: '105'},
     { id: 'p13',name: 'Kiwi',val1: '147',val2: '156'},
+]
+export const Non_Perishable = [ 
+    { id:'np01' ,name: 'NESTLE CEREGROW CEREALS' ,val1: '25' ,val2: '315' },
+    { id:'np02' ,name: 'KELLOGS CRUNCHY CEREALS' ,val1: '25' ,val2: '315' },
+    { id:'np03' ,name: 'YOGABAR' ,val1: '25' ,val2: '450' },
+    { id:'np04' ,name: 'AASHIRVAAD ATTA' ,val1: '30' ,val2: '75' },
+    { id:'np05' ,name: 'FORTUNE ATTA' ,val1: '30' ,val2: '75' },
+    { id:'np06' ,name: 'ORGANIC TATTVA ATTA' ,val1: '30' ,val2: '75' },
+    { id:'np07' ,name: 'MAGGI CHICKEN NOODLES' ,val1: '20' ,val2: '75' },
+    { id:'np08' ,name: 'MAGGI INSTANT NOODLES' ,val1: '35' ,val2: '21' },
+    { id:'np09' ,name: 'SUNFEAST YIPPE NOODLES' ,val1: '20' ,val2: '90' },
+    { id:'np10' ,name: 'SUGAR' ,val1: '30' ,val2: '75' },
+    { id:'np11' ,name: 'SALT' ,val1: '30' ,val2: '25' },
+    { id:'np12' ,name: 'DAVIDOFF COFFEE' ,val1: '35' ,val2: '587' },
+    { id:'np13' ,name: 'BRU INSTANT COFFEE' ,val1: '35' ,val2: '325' },
+    { id:'np14' ,name: 'LAYS MAGIC MASALA' ,val1: '35' ,val2: '20' },
+    { id:'np15' ,name: 'CHEETOS CHEESE BLAST' ,val1: '35' ,val2: '20' },
+    { id:'np16' ,name: 'LAYS SIZZLIN HOT CHIPS' ,val1: '35' ,val2: '20' },
+    { id:'np17' ,name: 'DORITOS NACHO CHEESE' ,val1: '15' ,val2: '30' },
+    { id:'np18' ,name: 'HIDE-AND-SEEK BISCUITS' ,val1: '40' ,val2: '45' },
+    { id:'np19' ,name: 'BOURBON BISCUIT' ,val1: '18' ,val2: '40' },
+    { id:'np20' ,name: 'DARK FANTASY' ,val1: '40' ,val2: '75' },
 ]
