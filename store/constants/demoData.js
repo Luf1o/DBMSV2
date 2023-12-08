@@ -1,11 +1,13 @@
 export const DemoData = [
     { id: 'i1',name: 'Ruler',val1: '25', val2: '8'},
     { id: 'i2',name: 'Eraser',val1: '25', val2: '5'},
+    { id: 'i4',name: 'Ball Pen',val1: '50',val2: '10'},
     { id: '408',name: 'Mixer Grinder',val1: '6',val2: '3500'},
     { id: 'p9',name: 'Mango',val1: '20',val2: '15'},
     { id: 'i3',name: 'Sharpener',val1: '35',val2: '4'},
     { id: 'p5',name: 'Cabbage',val1: '25',val2: '45'},
     { id: 'i9',name: 'Marker',val1: '20',val2: '15'},
+    { id: '405',name: 'Juicer',val1: '14',val2: '1509'},
     { id: 'i5',name: 'Gel Pen',val1: '14',val2: '20'},
     { id: 'i7',name: 'Urban Edge Notebook',val1: '35',val2: '50'},
     { id: 'i8',name: 'Fevicol',val1: '15',val2: '15'},

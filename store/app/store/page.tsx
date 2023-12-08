@@ -16,10 +16,11 @@ const Items = () => {
             <div className="flex flex-row justify-between items-center w-[auto] gap-4 h-auto">
               <input
                 type="number"
-                className="w-[50px] h-12  text-black rounded-sm"
+                className="w-[50px] h-12 text-center text-black rounded-sm"
                 id="nom"
                 min={0}
                 max={5}
+                defaultValue={0}
               />
               <button
                 type="button"

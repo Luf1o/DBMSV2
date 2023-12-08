@@ -1,10 +1,10 @@
 "use client";
-import { Blank } from "@/components/Blank";
+import Login from "./login/page";
 
 export default function Home() {
   return (
     <div className="flex flex-warp w-screen h-auto relative">
-      <Blank></Blank>
+      <Login></Login>
     </div>
   );
 }

@@ -30,7 +30,7 @@ function ProductCard() {
   return (
     <div className="flex h-max ml-8">
       <div className="flex flex-wrap w-full h-auto gap-2">
-        <div id="perishable" hidden>
+        <div id="perishable">
           <h1 className="text-blue-600 text-2xl pl-10">Perishable</h1>
           <div className="flex flex-wrap max-w-[80vw] gap-2 justify-between">
             {Perishable.map((props: objProp) => (
@@ -59,7 +59,7 @@ function ProductCard() {
             ))}
           </div>
         </div>
-        <div id="nonPerishable" hidden>
+        <div id="nonPerishable">
           <h1 className="text-blue-600 text-2xl pl-10">Applicance</h1>
           <div className="flex flex-wrap max-w-[80vw] gap-2 justify-between">
             {Appliances.map((props: objProp) => (
